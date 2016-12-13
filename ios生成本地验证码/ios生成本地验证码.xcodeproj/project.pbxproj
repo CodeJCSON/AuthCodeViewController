@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F843C1731DAA262B006AC190 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F843C1721DAA262B006AC190 /* main.m */; };
+		F843C1761DAA262B006AC190 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F843C1751DAA262B006AC190 /* AppDelegate.m */; };
+		F843C1791DAA262B006AC190 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F843C1781DAA262B006AC190 /* ViewController.m */; };
+		F843C17C1DAA262B006AC190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F843C17A1DAA262B006AC190 /* Main.storyboard */; };
+		F843C17E1DAA262B006AC190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F843C17D1DAA262B006AC190 /* Assets.xcassets */; };
+		F843C1811DAA262B006AC190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F843C17F1DAA262B006AC190 /* LaunchScreen.storyboard */; };
+		F843C1891DAA264F006AC190 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F843C1881DAA264F006AC190 /* CoreGraphics.framework */; };
+		F843C18C1DAA2675006AC190 /* AuthcodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F843C18B1DAA2675006AC190 /* AuthcodeView.m */; };
+		F843C18F1DAA2786006AC190 /* AuthCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F843C18E1DAA2786006AC190 /* AuthCodeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F843C16E1DAA262B006AC190 /* ios生成本地验证码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios生成本地验证码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F843C1721DAA262B006AC190 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F843C1741DAA262B006AC190 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F843C1751DAA262B006AC190 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F843C1771DAA262B006AC190 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F843C1781DAA262B006AC190 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F843C17B1DAA262B006AC190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F843C17D1DAA262B006AC190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F843C1801DAA262B006AC190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F843C1821DAA262B006AC190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F843C1881DAA264F006AC190 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F843C18A1DAA2675006AC190 /* AuthcodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthcodeView.h; sourceTree = "<group>"; };
+		F843C18B1DAA2675006AC190 /* AuthcodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthcodeView.m; sourceTree = "<group>"; };
+		F843C18D1DAA2786006AC190 /* AuthCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthCodeViewController.h; sourceTree = "<group>"; };
+		F843C18E1DAA2786006AC190 /* AuthCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthCodeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F843C16B1DAA262B006AC190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F843C1891DAA264F006AC190 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F843C1651DAA262B006AC190 = {
+			isa = PBXGroup;
+			children = (
+				F843C1881DAA264F006AC190 /* CoreGraphics.framework */,
+				F843C1701DAA262B006AC190 /* ios生成本地验证码 */,
+				F843C16F1DAA262B006AC190 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F843C16F1DAA262B006AC190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F843C16E1DAA262B006AC190 /* ios生成本地验证码.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F843C1701DAA262B006AC190 /* ios生成本地验证码 */ = {
+			isa = PBXGroup;
+			children = (
+				F843C1741DAA262B006AC190 /* AppDelegate.h */,
+				F843C1751DAA262B006AC190 /* AppDelegate.m */,
+				F843C1771DAA262B006AC190 /* ViewController.h */,
+				F843C1781DAA262B006AC190 /* ViewController.m */,
+				F843C18A1DAA2675006AC190 /* AuthcodeView.h */,
+				F843C18B1DAA2675006AC190 /* AuthcodeView.m */,
+				F843C18D1DAA2786006AC190 /* AuthCodeViewController.h */,
+				F843C18E1DAA2786006AC190 /* AuthCodeViewController.m */,
+				F843C17A1DAA262B006AC190 /* Main.storyboard */,
+				F843C17D1DAA262B006AC190 /* Assets.xcassets */,
+				F843C17F1DAA262B006AC190 /* LaunchScreen.storyboard */,
+				F843C1821DAA262B006AC190 /* Info.plist */,
+				F843C1711DAA262B006AC190 /* Supporting Files */,
+			);
+			path = "ios生成本地验证码";
+			sourceTree = "<group>";
+		};
+		F843C1711DAA262B006AC190 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F843C1721DAA262B006AC190 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F843C16D1DAA262B006AC190 /* ios生成本地验证码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F843C1851DAA262B006AC190 /* Build configuration list for PBXNativeTarget "ios生成本地验证码" */;
+			buildPhases = (
+				F843C16A1DAA262B006AC190 /* Sources */,
+				F843C16B1DAA262B006AC190 /* Frameworks */,
+				F843C16C1DAA262B006AC190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios生成本地验证码";
+			productName = "ios生成本地验证码";
+			productReference = F843C16E1DAA262B006AC190 /* ios生成本地验证码.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F843C1661DAA262B006AC190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "云媒";
+				TargetAttributes = {
+					F843C16D1DAA262B006AC190 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F843C1691DAA262B006AC190 /* Build configuration list for PBXProject "ios生成本地验证码" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F843C1651DAA262B006AC190;
+			productRefGroup = F843C16F1DAA262B006AC190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F843C16D1DAA262B006AC190 /* ios生成本地验证码 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F843C16C1DAA262B006AC190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F843C1811DAA262B006AC190 /* LaunchScreen.storyboard in Resources */,
+				F843C17E1DAA262B006AC190 /* Assets.xcassets in Resources */,
+				F843C17C1DAA262B006AC190 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F843C16A1DAA262B006AC190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F843C1791DAA262B006AC190 /* ViewController.m in Sources */,
+				F843C18C1DAA2675006AC190 /* AuthcodeView.m in Sources */,
+				F843C18F1DAA2786006AC190 /* AuthCodeViewController.m in Sources */,
+				F843C1761DAA262B006AC190 /* AppDelegate.m in Sources */,
+				F843C1731DAA262B006AC190 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F843C17A1DAA262B006AC190 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F843C17B1DAA262B006AC190 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F843C17F1DAA262B006AC190 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F843C1801DAA262B006AC190 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F843C1831DAA262B006AC190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F843C1841DAA262B006AC190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F843C1861DAA262B006AC190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios生成本地验证码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ios-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F843C1871DAA262B006AC190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios生成本地验证码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ios-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F843C1691DAA262B006AC190 /* Build configuration list for PBXProject "ios生成本地验证码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F843C1831DAA262B006AC190 /* Debug */,
+				F843C1841DAA262B006AC190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F843C1851DAA262B006AC190 /* Build configuration list for PBXNativeTarget "ios生成本地验证码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F843C1861DAA262B006AC190 /* Debug */,
+				F843C1871DAA262B006AC190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F843C1661DAA262B006AC190 /* Project object */;
+}
